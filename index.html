@@ -9,7 +9,7 @@ var xhr = new XMLHttpRequest()
 xhr.open('get', '/nateasemusic/cate.json', true)
 xhr.send()
 xhr.onload = function(){
-  console.log(JSON.parse(xhr.responseText))
+  console.log(xhr.responseText)
 }
 
 </script>
